@@ -1,0 +1,22 @@
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 0;
+}
+
+@mixin icons{
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+@mixin all{
+  display: flex;
+  align-items: stretch;
+}
+
+@mixin title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
